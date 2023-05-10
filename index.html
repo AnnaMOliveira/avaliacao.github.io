@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Hello Kitty Car</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">H<span>ell</span>O K<span>itt</span>Y</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#sobre">Sobre</a></li>
+                <li class="nav-item"><a href="#contato">Contato</a></li>
+                <i class='bx bx-search'></i>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4 class="text-h4">Hello Kitty Car</h4>
+                <h1 class="text-h1">Uma concessionária diferente com preços iguais</h1>
+                <p>Entre em contato conosco</p>
+                <button class="home-btn" onclick="funcaobotao()">Clique Aqui</button>
+            </div>
+            <div class="home-img">
+                <img src="img/imagem.png" alt="carro">
+            </div>
+        </section>
+        <section class="sobre" id="sobre">
+            <div class="sobre-text">
+                <h2 class="text-h2">Ficha Técnica</h2>
+                <p><strong>Nome:</strong> Skyline</p>
+                <p><strong>Marca:</strong> Nissan</p>
+                <p><strong>Modelo:</strong> GTR R34</p>
+                <p><strong>Motor:</strong> 320cv/ 39,97kgfm</p>
+                <p><strong>Velocidade Máxima:</strong> 250km/h 156MPH</p>
+                <p><strong>Transmissão:</strong> Integral / diferencial de deslizamento limitado</p>
+                <p><strong>Roda e Pneus:</strong> Tein TE37 Saga/ pneus BF Goodrich g-Force 265/35 ZR18</p>
+                <p><strong>Freios:</strong> Brembo/ tambor</p>
+                <p><strong>Peso:</strong> 1.660 kg</p>
+                <p><strong>Dimensões:</strong> Comprimento 4600 mm/ Largura 1785 mm/ Altura 2665 mm</p>
+                <p><strong>Consumo:</strong> 16 l/100kmc 9 l/100kme</p>
+                <p><strong>Preço:</strong> US$ 400.000</p>
+            </div>
+            <div class="sobre-img">
+                    <img src="img/imagem1.png" alt="Imagem 1">
+                    <img src="img/imagem2.png" alt="Imagem 2">
+                    <img src="img/imagem3.png" alt="Imagem 3">
+            </div>
+        </section>
+        <section class="contato" id="contato">
+            <div class="contato-text">
+                <h2>Formulário de Contato</h2>
+                <form action="" method="post">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required>
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" required>
+
+                    <input type="submit" value="Enviar">
+                </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
